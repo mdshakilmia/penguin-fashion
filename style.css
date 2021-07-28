@@ -16,7 +16,7 @@
   --text-color-second: #FABE4C;
   --text-color-light: #ffffff;
   --input-color: #ffffff ;
-  --body-color: #E5E5E5;
+  --body-color: #ffffff;
   --btn-color: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
 ;
 
@@ -88,13 +88,17 @@ img{
 }
 
 /* =============== REUSEABLE CLASS ================= */
+.section__title{
+  margin: 3rem 0;
+  font-size: var(--h2-font-size);
+  color: var(--title-color);
+}
 .btn{
   padding: 1rem 2rem;
   font-weight: var(--font-medium);
   text-transform: uppercase;
   color: var(--text-color-light);
   background: var(--btn-color);
-  margin-top: 1rem;
 }
 
 /* ================== HEADER STYLES ================== */
@@ -122,7 +126,7 @@ nav{
   font-weight: var(--font-medium);
   font-family: var(--title-font);
   font-size: var(--text-font-size);
-  padding:0 1.5rem;
+  padding:0 2rem;
 }
 
 .navbar .navbar-collapse ul li:hover a,
@@ -151,12 +155,60 @@ nav{
 }
 .hero-section p{
   color: var(--text-color);
+  margin-bottom: 1rem;
 }
 
+/* =============== MAIN SECTION STYLE================== */
 
 
+/* =============== PRODUCT CARD================== */
 
-/* =============== MAIN SECTION STYLES ================== */
+.card{
+  border-radius: .6rem;
+  background-color: #ffffff;
+}
+
+.card__img{
+  height: 20rem;
+  background-color: var(--frist-color);
+  border-radius: .6rem;
+}
+.card__img img{
+  height: 100%;
+  padding: 1rem;
+}
+.card-body{
+  padding: 1.5rem 0;
+}
+.card-title{
+  font-size: var(--h2-font-size);
+}
+.card-text{
+  color: var(--text-color);
+}
+.card-pricing h1{
+  font-size: var(--h1-font-size);
+  color: var(--text-color-second);
+}
+
+/* shoping section */
+
+.sm-card{
+  height: 8rem;
+  background-color: var(--body-color);
+  margin: 3rem 0;
+}
+.sm-card img{
+  height: 6rem;
+}
+.sm-card h2{
+  font-size: var(--h2-font-size);
+  color: var(--title-font);
+}
+.sm-card p{
+  font-size: var(--text-font-size);
+  color: var(--text-color);
+}
 
 
 /* ================== FOOTER STYLES ==================== */
