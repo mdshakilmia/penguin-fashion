@@ -83,6 +83,7 @@ a{
 img{
   width: 100%;
   height: auto;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -96,12 +97,45 @@ img{
 
 /* ================== HEADER STYLES ================== */
 .header{
-  background-color: var(--frist-color);
   height: 100vh;
   width: 100vw;
 }
 
 /* ================== NAV BAR ===================== */
+nav{
+  background-color: var(--frist-color-second);
+  width: 100vw;
+}
+.navbar .navbar-brand{
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+  font-family: var(--title-font);
+}
+.navbar .navbar-brand span{
+  color: #85A019;
+}
+
+.navbar .navbar-collapse ul li a{
+  color: var(--title-font);
+  font-weight: var(--font-medium);
+  font-family: var(--title-font);
+  font-size: var(--text-font-size);
+  padding:0 1.5rem;
+}
+
+.navbar .navbar-collapse ul li:hover a,
+.navbar .navbar-collapse ul li .active{
+  color: #85A019;
+}
+.hero-section{
+  background-color: var(--frist-color-second);
+  height: 100vh;
+  width: 100vw;
+}
+
+
+
+
 
 
 /* =============== MAIN SECTION STYLES ================== */
