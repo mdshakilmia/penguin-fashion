@@ -212,3 +212,10 @@ nav{
 
 
 /* ================== FOOTER STYLES ==================== */
+
+footer{
+  background-color: var(--frist-color-second);
+}
+footer p {
+  color: var(--text-color);
+}
